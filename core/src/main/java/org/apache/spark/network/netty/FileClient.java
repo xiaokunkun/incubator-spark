@@ -31,7 +31,7 @@ import java.util.concurrent.TimeUnit;
 
 class FileClient {
 
-  private static final Logger LOG = LoggerFactory.getLogger(FileCClient.class.getName());
+  private static final Logger LOG = LoggerFactory.getLogger(FileClient.class.getName());
 
   private final FileClientHandler handler;
   private Channel channel = null;
